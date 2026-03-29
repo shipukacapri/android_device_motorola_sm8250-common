@@ -53,7 +53,6 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon_Sys \
     CarrierConfigResCommon_Sys \
     SystemUIResCommon_Sys \
-    TelecommResCommon_Sys \
     TelephonyResCommon_Sys \
     WifiResCommon_Sys \
     FrameworksResTarget \
@@ -288,9 +287,7 @@ PRODUCT_COPY_FILES += \
 # Fwk-detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
-    libqti_vndfwk_detect.vendor \
-    libvndfwk_detect_jni.qti \
-    libvndfwk_detect_jni.qti.vendor
+    libqti_vndfwk_detect.vendor
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.vendor.qti.va_aosp.support=1
