@@ -74,6 +74,16 @@ vendor.mm.enable.qcom_parser=16777215
 # Memory Tagging
 arm64.memtag.process.system_server=off
 
+# MISTIFY device props
+ro.mist.display=1080 x 2520
+ro.mist.battery=6000mah
+ro.mist.soc=Snapdragon® 870
+ro.mist.camera=64MP + 16MP + 2MP + 0.3MP
+ro.mist.front=16MP + 8MP
+ro.mist.platform=SM8250-AC
+ro.mist.screen=6.7' IPS LCD
+ro.mist.device.name=Motorola moto g100
+
 # NFC
 ro.nfc.port=I2C
 
